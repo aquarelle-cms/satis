@@ -262,12 +262,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/cms.git",
-                    "reference": "74c053b5e149e37229dd38cf4b9a0c595dc18184"
+                    "reference": "31a8bef85acdf9f5de6d6f0bc8c98a0bdf1ee269"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/74c053b5e149e37229dd38cf4b9a0c595dc18184",
-                    "reference": "74c053b5e149e37229dd38cf4b9a0c595dc18184",
+                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/31a8bef85acdf9f5de6d6f0bc8c98a0bdf1ee269",
+                    "reference": "31a8bef85acdf9f5de6d6f0bc8c98a0bdf1ee269",
                     "shasum": ""
                 },
                 "require": {
@@ -278,7 +278,7 @@
                     "filp/whoops": "2.*",
                     "opis/colibri": "2.0.x-dev"
                 },
-                "time": "2018-10-04T22:29:41+00:00",
+                "time": "2019-01-29T21:32:55+00:00",
                 "type": "project",
                 "extra": {
                     "application": {
