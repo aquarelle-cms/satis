@@ -12,6 +12,12 @@ Install satis
 composer create-project composer/satis --stability=dev --keep-vcs
 ```
 
+Before trying to build, don't forget to update your repo
+
+```bash
+git pull origin master
+```
+
 Build the project
 
 ```bash
