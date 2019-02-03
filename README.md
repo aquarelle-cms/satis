@@ -29,8 +29,10 @@ After update
 ```bash
 # add new files
 git add .
+#optionally check that everything is ok
+git status
 # commit changes
-git commit -am "Updated"
+git commit -m "Updated"
 #push changes
 git push origin master
 ```
