@@ -809,12 +809,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/installer-sql.git",
-                    "reference": "02c6f4b11e6d4e91cf272bfc2030201ba32eb277"
+                    "reference": "32e55937af9f896726d3a1e2dcb560513629987f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/installer-sql/zipball/02c6f4b11e6d4e91cf272bfc2030201ba32eb277",
-                    "reference": "02c6f4b11e6d4e91cf272bfc2030201ba32eb277",
+                    "url": "https://api.github.com/repos/aquarelle-cms/installer-sql/zipball/32e55937af9f896726d3a1e2dcb560513629987f",
+                    "reference": "32e55937af9f896726d3a1e2dcb560513629987f",
                     "shasum": ""
                 },
                 "require": {
@@ -826,7 +826,7 @@
                 "require-dev": {
                     "aquarelle/core": "1.0.x-dev"
                 },
-                "time": "2019-02-04T11:56:16+00:00",
+                "time": "2019-02-04T13:10:17+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
