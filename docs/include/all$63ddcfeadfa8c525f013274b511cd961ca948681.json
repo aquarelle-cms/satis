@@ -198,18 +198,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/building-blocks-sql.git",
-                    "reference": "11f354b2de7d2f88d0fc0e8443d04f0534b0794c"
+                    "reference": "f8086e5575fb2e2c911409ad6382f986316af4bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks-sql/zipball/11f354b2de7d2f88d0fc0e8443d04f0534b0794c",
-                    "reference": "11f354b2de7d2f88d0fc0e8443d04f0534b0794c",
+                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks-sql/zipball/f8086e5575fb2e2c911409ad6382f986316af4bf",
+                    "reference": "f8086e5575fb2e2c911409ad6382f986316af4bf",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/building-blocks": "1.0.x-dev"
                 },
-                "time": "2019-02-04T11:47:37+00:00",
+                "time": "2019-02-07T23:41:29+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
