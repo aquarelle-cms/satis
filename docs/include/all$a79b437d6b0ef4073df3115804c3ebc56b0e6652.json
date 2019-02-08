@@ -134,19 +134,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/building-blocks.git",
-                    "reference": "0f60ba4ee016b537daa2ee7d198c6b1880c3aa38"
+                    "reference": "e53bb14b3706065a81c50805ff6ed82016afa28a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks/zipball/0f60ba4ee016b537daa2ee7d198c6b1880c3aa38",
-                    "reference": "0f60ba4ee016b537daa2ee7d198c6b1880c3aa38",
+                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks/zipball/e53bb14b3706065a81c50805ff6ed82016afa28a",
+                    "reference": "e53bb14b3706065a81c50805ff6ed82016afa28a",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/form-schema": "1.0.x-dev",
                     "opis-colibri/html": "1.0.x-dev"
                 },
-                "time": "2019-02-08T10:35:50+00:00",
+                "time": "2019-02-08T14:55:38+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
@@ -402,19 +402,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/core-ui.git",
-                    "reference": "3c9a319f317f2fe30aeb532a62479e733b344627"
+                    "reference": "71ab9c4dc24e93c4c13d785fd8eb5113dafba7d7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/core-ui/zipball/3c9a319f317f2fe30aeb532a62479e733b344627",
-                    "reference": "3c9a319f317f2fe30aeb532a62479e733b344627",
+                    "url": "https://api.github.com/repos/aquarelle-cms/core-ui/zipball/71ab9c4dc24e93c4c13d785fd8eb5113dafba7d7",
+                    "reference": "71ab9c4dc24e93c4c13d785fd8eb5113dafba7d7",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/core": "1.0.x-dev",
                     "ext-json": "*"
                 },
-                "time": "2019-02-08T11:12:44+00:00",
+                "time": "2019-02-08T14:56:41+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
