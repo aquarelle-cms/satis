@@ -134,19 +134,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/building-blocks.git",
-                    "reference": "e53bb14b3706065a81c50805ff6ed82016afa28a"
+                    "reference": "0be418037005d5228445aefabe7eba19a9cf13be"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks/zipball/e53bb14b3706065a81c50805ff6ed82016afa28a",
-                    "reference": "e53bb14b3706065a81c50805ff6ed82016afa28a",
+                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks/zipball/0be418037005d5228445aefabe7eba19a9cf13be",
+                    "reference": "0be418037005d5228445aefabe7eba19a9cf13be",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/form-schema": "1.0.x-dev",
                     "opis-colibri/html": "1.0.x-dev"
                 },
-                "time": "2019-02-08T14:55:38+00:00",
+                "time": "2019-02-08T15:47:51+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
