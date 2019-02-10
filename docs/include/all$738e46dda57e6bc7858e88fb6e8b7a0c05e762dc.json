@@ -262,12 +262,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/cms.git",
-                    "reference": "5bb8fc14304e04fd81c5bf53cabdd609463a4b6f"
+                    "reference": "8a1d872868d4a5a9221da01b1105d7f5bafd9aac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/5bb8fc14304e04fd81c5bf53cabdd609463a4b6f",
-                    "reference": "5bb8fc14304e04fd81c5bf53cabdd609463a4b6f",
+                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/8a1d872868d4a5a9221da01b1105d7f5bafd9aac",
+                    "reference": "8a1d872868d4a5a9221da01b1105d7f5bafd9aac",
                     "shasum": ""
                 },
                 "require": {
@@ -278,7 +278,7 @@
                     "filp/whoops": "2.*",
                     "opis/colibri": "2.0.x-dev"
                 },
-                "time": "2019-02-03T20:43:02+00:00",
+                "time": "2019-02-10T08:58:56+00:00",
                 "type": "project",
                 "extra": {
                     "application": {
@@ -809,12 +809,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/installer-sql.git",
-                    "reference": "32e55937af9f896726d3a1e2dcb560513629987f"
+                    "reference": "6e366c5e2242744f0c3c48e738ed9a5292281a81"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/installer-sql/zipball/32e55937af9f896726d3a1e2dcb560513629987f",
-                    "reference": "32e55937af9f896726d3a1e2dcb560513629987f",
+                    "url": "https://api.github.com/repos/aquarelle-cms/installer-sql/zipball/6e366c5e2242744f0c3c48e738ed9a5292281a81",
+                    "reference": "6e366c5e2242744f0c3c48e738ed9a5292281a81",
                     "shasum": ""
                 },
                 "require": {
@@ -826,7 +826,7 @@
                 "require-dev": {
                     "aquarelle/core": "1.0.x-dev"
                 },
-                "time": "2019-02-04T13:10:17+00:00",
+                "time": "2019-02-07T12:05:43+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
