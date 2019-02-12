@@ -668,6 +668,69 @@
                 }
             }
         },
+        "aquarelle/forms": {
+            "dev-master": {
+                "name": "aquarelle/forms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aquarelle-cms/forms.git",
+                    "reference": "72cd461d72845eb374e0d7cdccb5179c046fb70e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aquarelle-cms/forms/zipball/72cd461d72845eb374e0d7cdccb5179c046fb70e",
+                    "reference": "72cd461d72845eb374e0d7cdccb5179c046fb70e",
+                    "shasum": ""
+                },
+                "require": {
+                    "aquarelle/form-schema": "1.0.x-dev"
+                },
+                "time": "2019-02-11T23:50:21+00:00",
+                "type": "opis-colibri-module",
+                "extra": {
+                    "module": {
+                        "title": "Forms",
+                        "installer": "Aquarelle\\Forms\\Installer",
+                        "collector": "Aquarelle\\Forms\\Collector"
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Aquarelle\\Forms\\": "src/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Marius Sarca",
+                        "email": "marius.sarca@gmail.com"
+                    },
+                    {
+                        "name": "Sorin Sarca",
+                        "email": "sarca_sorin@hotmail.com"
+                    }
+                ],
+                "description": "Provides support for user-defined forms",
+                "homepage": "http://opis.io",
+                "keywords": [
+                    "aquarelle",
+                    "cms",
+                    "forms",
+                    "module"
+                ],
+                "support": {
+                    "source": "https://github.com/aquarelle-cms/forms/tree/master",
+                    "issues": "https://github.com/aquarelle-cms/forms/issues"
+                }
+            }
+        },
         "aquarelle/images": {
             "dev-master": {
                 "name": "aquarelle/images",
