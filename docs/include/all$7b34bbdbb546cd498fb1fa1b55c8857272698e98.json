@@ -731,6 +731,69 @@
                 }
             }
         },
+        "aquarelle/forms-sql": {
+            "dev-master": {
+                "name": "aquarelle/forms-sql",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aquarelle-cms/forms-sql.git",
+                    "reference": "411fa046ecfbeb8064ee88820bf58e1ccb7f91a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aquarelle-cms/forms-sql/zipball/411fa046ecfbeb8064ee88820bf58e1ccb7f91a9",
+                    "reference": "411fa046ecfbeb8064ee88820bf58e1ccb7f91a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "aquarelle/forms": "1.0.x-dev"
+                },
+                "time": "2019-02-12T00:51:57+00:00",
+                "type": "opis-colibri-module",
+                "extra": {
+                    "module": {
+                        "title": "Forms SQL",
+                        "installer": "Aquarelle\\FormsSQL\\Installer",
+                        "collector": "Aquarelle\\FormsSQL\\Collector"
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Aquarelle\\FormsSQL\\": "src/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Marius Sarca",
+                        "email": "marius.sarca@gmail.com"
+                    },
+                    {
+                        "name": "Sorin Sarca",
+                        "email": "sarca_sorin@hotmail.com"
+                    }
+                ],
+                "description": "SQL implementation for aquarelle/forms",
+                "homepage": "http://opis.io",
+                "keywords": [
+                    "aquarelle",
+                    "cms",
+                    "forms",
+                    "module"
+                ],
+                "support": {
+                    "source": "https://github.com/aquarelle-cms/forms-sql/tree/master",
+                    "issues": "https://github.com/aquarelle-cms/forms-sql/issues"
+                }
+            }
+        },
         "aquarelle/images": {
             "dev-master": {
                 "name": "aquarelle/images",
