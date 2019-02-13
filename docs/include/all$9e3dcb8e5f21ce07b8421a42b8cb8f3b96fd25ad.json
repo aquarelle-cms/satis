@@ -1073,12 +1073,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/json-schema-api.git",
-                    "reference": "61f26cea38eadb1ef7399e62684dda8e35d71dae"
+                    "reference": "5f63883b6cd9410ff10109ac296940dcc2953209"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/json-schema-api/zipball/61f26cea38eadb1ef7399e62684dda8e35d71dae",
-                    "reference": "61f26cea38eadb1ef7399e62684dda8e35d71dae",
+                    "url": "https://api.github.com/repos/aquarelle-cms/json-schema-api/zipball/5f63883b6cd9410ff10109ac296940dcc2953209",
+                    "reference": "5f63883b6cd9410ff10109ac296940dcc2953209",
                     "shasum": ""
                 },
                 "require": {
@@ -1091,7 +1091,7 @@
                     "opis-colibri/users-sql": "1.0.x-dev",
                     "phpunit/phpunit": "^6.5"
                 },
-                "time": "2019-02-13T10:43:42+00:00",
+                "time": "2019-02-13T13:37:06+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
