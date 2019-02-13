@@ -741,18 +741,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/forms-sql.git",
-                    "reference": "a3dc0da13180a46c0a2073334a152d73e1af7d48"
+                    "reference": "4f41673c2d759fc20258dd826591f58278be16e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/forms-sql/zipball/a3dc0da13180a46c0a2073334a152d73e1af7d48",
-                    "reference": "a3dc0da13180a46c0a2073334a152d73e1af7d48",
+                    "url": "https://api.github.com/repos/aquarelle-cms/forms-sql/zipball/4f41673c2d759fc20258dd826591f58278be16e4",
+                    "reference": "4f41673c2d759fc20258dd826591f58278be16e4",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/forms": "1.0.x-dev"
                 },
-                "time": "2019-02-12T01:22:17+00:00",
+                "time": "2019-02-13T17:43:14+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
