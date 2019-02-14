@@ -190,70 +190,6 @@
                 }
             }
         },
-        "aquarelle/building-blocks-sql": {
-            "dev-master": {
-                "name": "aquarelle/building-blocks-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/building-blocks-sql.git",
-                    "reference": "b2bd1e7090fd3b3b65ecef3bf4f1f47b36fc541f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks-sql/zipball/b2bd1e7090fd3b3b65ecef3bf4f1f47b36fc541f",
-                    "reference": "b2bd1e7090fd3b3b65ecef3bf4f1f47b36fc541f",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/building-blocks": "1.0.x-dev"
-                },
-                "time": "2019-02-12T00:55:06+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "SQL Building blocks",
-                        "installer": "Aquarelle\\BuildingBlocksSQL\\Installer",
-                        "collector": "Aquarelle\\BuildingBlocksSQL\\Collector"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\BuildingBlocksSQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "SQL-based implementation for aquarelle/building-blocks module",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "aquarelle",
-                    "building blocks",
-                    "cms",
-                    "module",
-                    "sql"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/building-blocks-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/building-blocks-sql/issues"
-                }
-            }
-        },
         "aquarelle/cms": {
             "dev-master": {
                 "name": "aquarelle/cms",
@@ -262,32 +198,27 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/cms.git",
-                    "reference": "a9e9712baab4998073e76fd37f3e6b1549f69847"
+                    "reference": "953b89706bf200aa7f719bc0d42a50c90d58446c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/a9e9712baab4998073e76fd37f3e6b1549f69847",
-                    "reference": "a9e9712baab4998073e76fd37f3e6b1549f69847",
+                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/953b89706bf200aa7f719bc0d42a50c90d58446c",
+                    "reference": "953b89706bf200aa7f719bc0d42a50c90d58446c",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/bootstrap4": "1.0.x-dev",
-                    "aquarelle/core": "1.0.x-dev",
                     "aquarelle/core-ui": "1.0.x-dev",
+                    "aquarelle/installer-sql": "1.0.x-dev",
                     "aquarelle/sql-implementation": "1.0.x-dev",
-                    "filp/whoops": "2.*",
-                    "opis/colibri": "2.0.x-dev"
+                    "filp/whoops": "2.*"
                 },
-                "time": "2019-02-12T01:39:23+00:00",
+                "time": "2019-02-14T13:11:52+00:00",
                 "type": "project",
                 "extra": {
                     "application": {
                         "modules": [
-                            "aquarelle/users-sql",
-                            "aquarelle/forms-sql",
-                            "aquarelle/building-blocks-sql",
-                            "aquarelle/images-sql",
-                            "aquarelle/pages-sql",
+                            "aquarelle/sql-implementation",
                             "aquarelle/bootstrap4",
                             "aquarelle/core-ui"
                         ]
@@ -331,12 +262,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/core.git",
-                    "reference": "0e225d751562a3f5a5c62c1af15bee685b711d60"
+                    "reference": "7616031fd5e116408fe10349366514670cf5053d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/core/zipball/0e225d751562a3f5a5c62c1af15bee685b711d60",
-                    "reference": "0e225d751562a3f5a5c62c1af15bee685b711d60",
+                    "url": "https://api.github.com/repos/aquarelle-cms/core/zipball/7616031fd5e116408fe10349366514670cf5053d",
+                    "reference": "7616031fd5e116408fe10349366514670cf5053d",
                     "shasum": ""
                 },
                 "require": {
@@ -351,7 +282,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "5.4.*"
                 },
-                "time": "2019-02-12T01:37:38+00:00",
+                "time": "2019-02-13T22:16:52+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
@@ -393,77 +324,6 @@
                 "support": {
                     "source": "https://github.com/aquarelle-cms/core/tree/master",
                     "issues": "https://github.com/aquarelle-cms/core/issues"
-                }
-            }
-        },
-        "aquarelle/core-sql": {
-            "dev-master": {
-                "name": "aquarelle/core-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/core-sql.git",
-                    "reference": "cc616f5b3640f98e079805d5cfe1b1b19868d69a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/core-sql/zipball/cc616f5b3640f98e079805d5cfe1b1b19868d69a",
-                    "reference": "cc616f5b3640f98e079805d5cfe1b1b19868d69a",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/core": "1.0.*@dev",
-                    "aquarelle/custom-components": "1.0.*@dev",
-                    "aquarelle/pages": "1.0.*@dev",
-                    "opis-colibri/permissions-sql": "1.0.*@dev",
-                    "opis-colibri/users-sql": "1.0.*@dev"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "5.4.*"
-                },
-                "time": "2019-02-14T12:15:12+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "Core SQL",
-                        "collector": "Aquarelle\\Core\\SQL\\Collector",
-                        "installer": "Aquarelle\\Core\\SQL\\Installer"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\Core\\SQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "SQL-based implementation for aquarelle/core",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "aquarelle",
-                    "cms",
-                    "core",
-                    "module",
-                    "sql"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/core-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/core-sql/issues"
                 }
             }
         },
@@ -612,69 +472,6 @@
                 }
             }
         },
-        "aquarelle/custom-components-sql": {
-            "dev-master": {
-                "name": "aquarelle/custom-components-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/custom-components-sql.git",
-                    "reference": "f23f564ab7f2e6e08bf7c5117250313f4cc1a412"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/custom-components-sql/zipball/f23f564ab7f2e6e08bf7c5117250313f4cc1a412",
-                    "reference": "f23f564ab7f2e6e08bf7c5117250313f4cc1a412",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/custom-components": "1.0.x-dev"
-                },
-                "time": "2019-02-11T21:45:45+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "Aquarelle Custom Components SQL impl.",
-                        "collector": "Aquarelle\\CustomComponentsSQL\\Collector",
-                        "installer": "Aquarelle\\CustomComponentsSQL\\Installer"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\CustomComponentsSQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "Aquarelle Custom Elements SQL",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "aquarelle",
-                    "custom component",
-                    "module",
-                    "sql"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/custom-components-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/custom-components-sql/issues"
-                }
-            }
-        },
         "aquarelle/form-schema": {
             "dev-master": {
                 "name": "aquarelle/form-schema",
@@ -804,69 +601,6 @@
                 }
             }
         },
-        "aquarelle/forms-sql": {
-            "dev-master": {
-                "name": "aquarelle/forms-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/forms-sql.git",
-                    "reference": "4f41673c2d759fc20258dd826591f58278be16e4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/forms-sql/zipball/4f41673c2d759fc20258dd826591f58278be16e4",
-                    "reference": "4f41673c2d759fc20258dd826591f58278be16e4",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/forms": "1.0.x-dev"
-                },
-                "time": "2019-02-13T17:43:14+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "Forms SQL",
-                        "installer": "Aquarelle\\FormsSQL\\Installer",
-                        "collector": "Aquarelle\\FormsSQL\\Collector"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\FormsSQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "SQL implementation for aquarelle/forms",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "aquarelle",
-                    "cms",
-                    "forms",
-                    "module"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/forms-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/forms-sql/issues"
-                }
-            }
-        },
         "aquarelle/images": {
             "dev-master": {
                 "name": "aquarelle/images",
@@ -932,71 +666,6 @@
                 "support": {
                     "source": "https://github.com/aquarelle-cms/images/tree/master",
                     "issues": "https://github.com/aquarelle-cms/images/issues"
-                }
-            }
-        },
-        "aquarelle/images-sql": {
-            "dev-master": {
-                "name": "aquarelle/images-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/images-sql.git",
-                    "reference": "5bf546dc8efe938fb76fd31347fa0eb8b5fca840"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/images-sql/zipball/5bf546dc8efe938fb76fd31347fa0eb8b5fca840",
-                    "reference": "5bf546dc8efe938fb76fd31347fa0eb8b5fca840",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/images": "1.0.x-dev",
-                    "php": "^7.1"
-                },
-                "time": "2019-02-04T11:54:49+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "SQL Images",
-                        "installer": "Aquarelle\\ImagesSQL\\Installer",
-                        "collector": "Aquarelle\\ImagesSQL\\Collector"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\ImagesSQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "SQL-based implementation for aquarelle/images module",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "aquarelle",
-                    "cms",
-                    "images",
-                    "module",
-                    "sql"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/images-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/images-sql/issues"
                 }
             }
         },
@@ -1210,6 +879,80 @@
                     "source": "https://github.com/aquarelle-cms/json-schema-api/tree/master",
                     "issues": "https://github.com/aquarelle-cms/json-schema-api/issues"
                 }
+            },
+            "dev-search": {
+                "name": "aquarelle/json-schema-api",
+                "version": "dev-search",
+                "version_normalized": "dev-search",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aquarelle-cms/json-schema-api.git",
+                    "reference": "e7ccbfeca99dba7c45d5001ea96827c703503b3d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aquarelle-cms/json-schema-api/zipball/e7ccbfeca99dba7c45d5001ea96827c703503b3d",
+                    "reference": "e7ccbfeca99dba7c45d5001ea96827c703503b3d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "opis-colibri/users": "1.0.x-dev",
+                    "opis/json-schema": "^1.0.0"
+                },
+                "require-dev": {
+                    "opis-colibri/permissions-sql": "1.0.x-dev",
+                    "opis-colibri/users-sql": "1.0.x-dev",
+                    "phpunit/phpunit": "^6.5"
+                },
+                "time": "2019-02-13T21:34:36+00:00",
+                "type": "opis-colibri-module",
+                "extra": {
+                    "module": {
+                        "title": "JSON Schema API",
+                        "collector": "Aquarelle\\JsonSchemaApi\\Collector",
+                        "installer": "Aquarelle\\JsonSchemaApi\\Installer"
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Aquarelle\\JsonSchemaApi\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Aquarelle\\JsonSchemaApi\\Test\\": "tests/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Marius Sarca",
+                        "email": "marius.sarca@gmail.com"
+                    },
+                    {
+                        "name": "Sorin Sarca",
+                        "email": "sarca_sorin@hotmail.com"
+                    }
+                ],
+                "description": "JSON Schema API",
+                "homepage": "http://opis.io",
+                "keywords": [
+                    "aquarelle",
+                    "cms",
+                    "json",
+                    "module",
+                    "schema"
+                ],
+                "support": {
+                    "source": "https://github.com/aquarelle-cms/json-schema-api/tree/search",
+                    "issues": "https://github.com/aquarelle-cms/json-schema-api/issues"
+                }
             }
         },
         "aquarelle/mini-blog": {
@@ -1408,72 +1151,6 @@
                 }
             }
         },
-        "aquarelle/pages-sql": {
-            "dev-master": {
-                "name": "aquarelle/pages-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/pages-sql.git",
-                    "reference": "36427171c31b2c39e408934047f585d196c9b7ed"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/pages-sql/zipball/36427171c31b2c39e408934047f585d196c9b7ed",
-                    "reference": "36427171c31b2c39e408934047f585d196c9b7ed",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/building-blocks-sql": "dev-master",
-                    "aquarelle/pages": "dev-master",
-                    "aquarelle/users-sql": "^1.0@dev"
-                },
-                "time": "2019-02-04T12:03:30+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "Pages SQL",
-                        "installer": "Aquarelle\\PagesSQL\\Installer",
-                        "collector": "Aquarelle\\PagesSQL\\Collector"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\PagesSQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "SQL-based implementation for aquarelle/pages module",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "aquarelle",
-                    "cms",
-                    "module",
-                    "pages",
-                    "sql"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/pages-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/pages-sql/issues"
-                }
-            }
-        },
         "aquarelle/resources": {
             "dev-master": {
                 "name": "aquarelle/resources",
@@ -1613,28 +1290,39 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/sql-implementation.git",
-                    "reference": "e8cd6e6ebc45d36c9a5ce867fa227f22fd8cc1b6"
+                    "reference": "94b03c9bc138bc94f130e97558a61da89c11867d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/sql-implementation/zipball/e8cd6e6ebc45d36c9a5ce867fa227f22fd8cc1b6",
-                    "reference": "e8cd6e6ebc45d36c9a5ce867fa227f22fd8cc1b6",
+                    "url": "https://api.github.com/repos/aquarelle-cms/sql-implementation/zipball/94b03c9bc138bc94f130e97558a61da89c11867d",
+                    "reference": "94b03c9bc138bc94f130e97558a61da89c11867d",
                     "shasum": ""
                 },
                 "require": {
-                    "aquarelle/building-blocks-sql": "1.0.x-dev",
-                    "aquarelle/forms-sql": "1.0.x-dev",
-                    "aquarelle/images-sql": "1.0.x-dev",
-                    "aquarelle/installer-sql": "1.0.x-dev",
-                    "aquarelle/pages-sql": "1.0.x-dev",
-                    "aquarelle/users-sql": "1.0.x-dev",
-                    "php": ">=7.0.0"
+                    "aquarelle/core": "1.0.*@dev",
+                    "aquarelle/custom-components": "1.0.*@dev",
+                    "aquarelle/pages": "1.0.*@dev",
+                    "opis-colibri/permissions-sql": "1.0.*@dev",
+                    "opis-colibri/users-sql": "1.0.*@dev"
                 },
-                "time": "2019-02-12T01:27:25+00:00",
-                "type": "metapackage",
+                "require-dev": {
+                    "phpunit/phpunit": "5.4.*"
+                },
+                "time": "2019-02-14T13:08:18+00:00",
+                "type": "opis-colibri-module",
                 "extra": {
+                    "module": {
+                        "title": "Aquarelle SQL Implementation",
+                        "collector": "Aquarelle\\SQLImplementation\\Collector",
+                        "installer": "Aquarelle\\SQLImplementation\\Installer"
+                    },
                     "branch-alias": {
                         "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Aquarelle\\SQLImplementation\\": "src/"
                     }
                 },
                 "license": [
@@ -1650,11 +1338,13 @@
                         "email": "sarca_sorin@hotmail.com"
                     }
                 ],
-                "description": "SQL implementation for Aquarelle CMS",
+                "description": "The SQL-based implementation for Aquarelle",
                 "homepage": "http://opis.io",
                 "keywords": [
                     "aquarelle",
                     "cms",
+                    "core",
+                    "module",
                     "sql"
                 ],
                 "support": {
@@ -1723,72 +1413,6 @@
                 "support": {
                     "source": "https://github.com/aquarelle-cms/users/tree/master",
                     "issues": "https://github.com/aquarelle-cms/users/issues"
-                }
-            }
-        },
-        "aquarelle/users-sql": {
-            "dev-master": {
-                "name": "aquarelle/users-sql",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:aquarelle-cms/users-sql.git",
-                    "reference": "84296b15842c954c4c61a70602be2f8ca16986a7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/users-sql/zipball/84296b15842c954c4c61a70602be2f8ca16986a7",
-                    "reference": "84296b15842c954c4c61a70602be2f8ca16986a7",
-                    "shasum": ""
-                },
-                "require": {
-                    "aquarelle/users": "1.0.x-dev",
-                    "opis-colibri/permissions-sql": "1.0.x-dev",
-                    "opis-colibri/users-sql": "1.0.x-dev"
-                },
-                "time": "2019-02-04T11:31:32+00:00",
-                "type": "opis-colibri-module",
-                "extra": {
-                    "module": {
-                        "title": "SQL User entities",
-                        "collector": "Aquarelle\\UsersSQL\\Collector"
-                    },
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Aquarelle\\UsersSQL\\": "src/"
-                    }
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Marius Sarca",
-                        "email": "marius.sarca@gmail.com"
-                    },
-                    {
-                        "name": "Sorin Sarca",
-                        "email": "sarca_sorin@hotmail.com"
-                    }
-                ],
-                "description": "SQL-based implementation for aquarelle/users",
-                "homepage": "http://opis.io",
-                "keywords": [
-                    "api",
-                    "aquarelle",
-                    "cms",
-                    "module",
-                    "sql",
-                    "users"
-                ],
-                "support": {
-                    "source": "https://github.com/aquarelle-cms/users-sql/tree/master",
-                    "issues": "https://github.com/aquarelle-cms/users-sql/issues"
                 }
             }
         }

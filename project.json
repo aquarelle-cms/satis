@@ -14,21 +14,14 @@
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/pages.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/installer-sql.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/cms.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/images-sql.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/images.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/json-schema-api.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/custom-components-sql.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/building-blocks-sql.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/form-schema.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/pages-sql"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/users.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/users-sql.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/sql-implementation.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/resources-aws.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/bootswatch.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/forms.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/forms-sql.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/core-sql.git"}
+    {"type": "vcs", "url": "git@github.com:aquarelle-cms/forms.git"}
   ],
   "require-all": true
 }
