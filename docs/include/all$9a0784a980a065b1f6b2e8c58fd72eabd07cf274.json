@@ -134,19 +134,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/building-blocks.git",
-                    "reference": "7cc2d0ee7a756a5390c6a5c81a1f06c7f079c1dd"
+                    "reference": "ab9d243ac49b913222c490a57b5c9a10ef75b195"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks/zipball/7cc2d0ee7a756a5390c6a5c81a1f06c7f079c1dd",
-                    "reference": "7cc2d0ee7a756a5390c6a5c81a1f06c7f079c1dd",
+                    "url": "https://api.github.com/repos/aquarelle-cms/building-blocks/zipball/ab9d243ac49b913222c490a57b5c9a10ef75b195",
+                    "reference": "ab9d243ac49b913222c490a57b5c9a10ef75b195",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/form-schema": "1.0.x-dev",
                     "opis-colibri/html": "1.0.x-dev"
                 },
-                "time": "2019-02-13T23:03:18+00:00",
+                "time": "2019-02-14T22:07:38+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
@@ -262,12 +262,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/core.git",
-                    "reference": "7616031fd5e116408fe10349366514670cf5053d"
+                    "reference": "87f88ac898b6dfac694a5da3757bf3221bf2d291"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/core/zipball/7616031fd5e116408fe10349366514670cf5053d",
-                    "reference": "7616031fd5e116408fe10349366514670cf5053d",
+                    "url": "https://api.github.com/repos/aquarelle-cms/core/zipball/87f88ac898b6dfac694a5da3757bf3221bf2d291",
+                    "reference": "87f88ac898b6dfac694a5da3757bf3221bf2d291",
                     "shasum": ""
                 },
                 "require": {
@@ -282,7 +282,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "5.4.*"
                 },
-                "time": "2019-02-13T22:16:52+00:00",
+                "time": "2019-02-14T22:09:22+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
