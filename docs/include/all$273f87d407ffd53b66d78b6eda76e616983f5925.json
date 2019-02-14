@@ -198,22 +198,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/cms.git",
-                    "reference": "953b89706bf200aa7f719bc0d42a50c90d58446c"
+                    "reference": "646cc1d7c1b5afe1f5aa8c87b36ef36110945266"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/953b89706bf200aa7f719bc0d42a50c90d58446c",
-                    "reference": "953b89706bf200aa7f719bc0d42a50c90d58446c",
+                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/646cc1d7c1b5afe1f5aa8c87b36ef36110945266",
+                    "reference": "646cc1d7c1b5afe1f5aa8c87b36ef36110945266",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/bootstrap4": "1.0.x-dev",
                     "aquarelle/core-ui": "1.0.x-dev",
-                    "aquarelle/installer-sql": "1.0.x-dev",
-                    "aquarelle/sql-implementation": "1.0.x-dev",
+                    "aquarelle/implementation": "1.0.x-dev",
+                    "aquarelle/installer": "1.0.x-dev",
                     "filp/whoops": "2.*"
                 },
-                "time": "2019-02-14T13:11:52+00:00",
+                "time": "2019-02-14T21:06:32+00:00",
                 "type": "project",
                 "extra": {
                     "application": {
