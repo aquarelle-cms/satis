@@ -404,28 +404,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/core-sql.git",
-                    "reference": "6b9625bde39e6eff202e2e0af500a54cd31c91fc"
+                    "reference": "cc616f5b3640f98e079805d5cfe1b1b19868d69a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/core-sql/zipball/6b9625bde39e6eff202e2e0af500a54cd31c91fc",
-                    "reference": "6b9625bde39e6eff202e2e0af500a54cd31c91fc",
+                    "url": "https://api.github.com/repos/aquarelle-cms/core-sql/zipball/cc616f5b3640f98e079805d5cfe1b1b19868d69a",
+                    "reference": "cc616f5b3640f98e079805d5cfe1b1b19868d69a",
                     "shasum": ""
                 },
                 "require": {
-                    "aquarelle/building-blocks": "1.0.*@dev",
-                    "aquarelle/forms": "1.0.*@dev",
-                    "aquarelle/images": "1.0.*@dev",
+                    "aquarelle/core": "1.0.*@dev",
+                    "aquarelle/custom-components": "1.0.*@dev",
                     "aquarelle/pages": "1.0.*@dev",
-                    "aquarelle/resources": "1.0.*@dev",
-                    "aquarelle/users": "1.0.*@dev",
                     "opis-colibri/permissions-sql": "1.0.*@dev",
                     "opis-colibri/users-sql": "1.0.*@dev"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "5.4.*"
                 },
-                "time": "2019-02-14T11:27:55+00:00",
+                "time": "2019-02-14T12:15:12+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
