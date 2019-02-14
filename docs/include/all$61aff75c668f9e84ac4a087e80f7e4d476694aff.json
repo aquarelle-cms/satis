@@ -198,12 +198,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/cms.git",
-                    "reference": "646cc1d7c1b5afe1f5aa8c87b36ef36110945266"
+                    "reference": "93bcc5a01279183b3b30b4e8fe1a550c54fe2b2a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/646cc1d7c1b5afe1f5aa8c87b36ef36110945266",
-                    "reference": "646cc1d7c1b5afe1f5aa8c87b36ef36110945266",
+                    "url": "https://api.github.com/repos/aquarelle-cms/cms/zipball/93bcc5a01279183b3b30b4e8fe1a550c54fe2b2a",
+                    "reference": "93bcc5a01279183b3b30b4e8fe1a550c54fe2b2a",
                     "shasum": ""
                 },
                 "require": {
@@ -213,12 +213,12 @@
                     "aquarelle/installer": "1.0.x-dev",
                     "filp/whoops": "2.*"
                 },
-                "time": "2019-02-14T21:06:32+00:00",
+                "time": "2019-02-14T21:16:46+00:00",
                 "type": "project",
                 "extra": {
                     "application": {
                         "modules": [
-                            "aquarelle/sql-implementation",
+                            "aquarelle/implementation",
                             "aquarelle/bootstrap4",
                             "aquarelle/core-ui"
                         ]
@@ -748,12 +748,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/installer.git",
-                    "reference": "eedfdf1905c81295b92214693e9af9a56bcee2ea"
+                    "reference": "2e3d3c618f118116a9e85830caf16f63a6bfd68e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/installer/zipball/eedfdf1905c81295b92214693e9af9a56bcee2ea",
-                    "reference": "eedfdf1905c81295b92214693e9af9a56bcee2ea",
+                    "url": "https://api.github.com/repos/aquarelle-cms/installer/zipball/2e3d3c618f118116a9e85830caf16f63a6bfd68e",
+                    "reference": "2e3d3c618f118116a9e85830caf16f63a6bfd68e",
                     "shasum": ""
                 },
                 "require": {
@@ -765,7 +765,7 @@
                 "require-dev": {
                     "aquarelle/core": "1.0.x-dev"
                 },
-                "time": "2019-02-14T20:59:56+00:00",
+                "time": "2019-02-14T21:15:41+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
