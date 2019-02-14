@@ -408,18 +408,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/custom-components.git",
-                    "reference": "0ec06a900cebcfe9f0fd1e58078f54f9832e1730"
+                    "reference": "5658d5de59e8681dadd92344a298057e065bc2bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/custom-components/zipball/0ec06a900cebcfe9f0fd1e58078f54f9832e1730",
-                    "reference": "0ec06a900cebcfe9f0fd1e58078f54f9832e1730",
+                    "url": "https://api.github.com/repos/aquarelle-cms/custom-components/zipball/5658d5de59e8681dadd92344a298057e065bc2bd",
+                    "reference": "5658d5de59e8681dadd92344a298057e065bc2bd",
                     "shasum": ""
                 },
                 "require": {
-                    "aquarelle/core": "1.0.x-dev"
+                    "aquarelle/building-blocks": "1.0.x-dev"
                 },
-                "time": "2019-02-11T21:42:56+00:00",
+                "time": "2019-02-14T22:12:51+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
