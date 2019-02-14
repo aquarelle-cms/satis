@@ -27,7 +27,8 @@
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/resources-aws.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/bootswatch.git"},
     {"type": "vcs", "url": "git@github.com:aquarelle-cms/forms.git"},
-    {"type": "vcs", "url": "git@github.com:aquarelle-cms/forms-sql.git"}
+    {"type": "vcs", "url": "git@github.com:aquarelle-cms/forms-sql.git"},
+    {"type": "vcs", "url": "git@github.com:aquarelle-cms/core-sql.git"}
   ],
   "require-all": true
 }
