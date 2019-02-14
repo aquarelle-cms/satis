@@ -880,6 +880,80 @@
                     "issues": "https://github.com/aquarelle-cms/json-schema-api/issues"
                 }
             },
+            "dev-new_search": {
+                "name": "aquarelle/json-schema-api",
+                "version": "dev-new_search",
+                "version_normalized": "dev-new_search",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aquarelle-cms/json-schema-api.git",
+                    "reference": "a0e3d3b89719da7930c834bb2703e7eb5104a015"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aquarelle-cms/json-schema-api/zipball/a0e3d3b89719da7930c834bb2703e7eb5104a015",
+                    "reference": "a0e3d3b89719da7930c834bb2703e7eb5104a015",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "opis-colibri/users": "1.0.x-dev",
+                    "opis/json-schema": "^1.0.0"
+                },
+                "require-dev": {
+                    "opis-colibri/permissions-sql": "1.0.x-dev",
+                    "opis-colibri/users-sql": "1.0.x-dev",
+                    "phpunit/phpunit": "^6.5"
+                },
+                "time": "2019-02-14T13:57:50+00:00",
+                "type": "opis-colibri-module",
+                "extra": {
+                    "module": {
+                        "title": "JSON Schema API",
+                        "collector": "Aquarelle\\JsonSchemaApi\\Collector",
+                        "installer": "Aquarelle\\JsonSchemaApi\\Installer"
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Aquarelle\\JsonSchemaApi\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Aquarelle\\JsonSchemaApi\\Test\\": "tests/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Marius Sarca",
+                        "email": "marius.sarca@gmail.com"
+                    },
+                    {
+                        "name": "Sorin Sarca",
+                        "email": "sarca_sorin@hotmail.com"
+                    }
+                ],
+                "description": "JSON Schema API",
+                "homepage": "http://opis.io",
+                "keywords": [
+                    "aquarelle",
+                    "cms",
+                    "json",
+                    "module",
+                    "schema"
+                ],
+                "support": {
+                    "source": "https://github.com/aquarelle-cms/json-schema-api/tree/new_search",
+                    "issues": "https://github.com/aquarelle-cms/json-schema-api/issues"
+                }
+            },
             "dev-search": {
                 "name": "aquarelle/json-schema-api",
                 "version": "dev-search",
@@ -1290,12 +1364,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/sql-implementation.git",
-                    "reference": "94b03c9bc138bc94f130e97558a61da89c11867d"
+                    "reference": "ce971a9f3c7eecf5e538d1cdbba7369c1843877d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/sql-implementation/zipball/94b03c9bc138bc94f130e97558a61da89c11867d",
-                    "reference": "94b03c9bc138bc94f130e97558a61da89c11867d",
+                    "url": "https://api.github.com/repos/aquarelle-cms/sql-implementation/zipball/ce971a9f3c7eecf5e538d1cdbba7369c1843877d",
+                    "reference": "ce971a9f3c7eecf5e538d1cdbba7369c1843877d",
                     "shasum": ""
                 },
                 "require": {
@@ -1308,7 +1382,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "5.4.*"
                 },
-                "time": "2019-02-14T13:08:18+00:00",
+                "time": "2019-02-14T15:45:13+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
