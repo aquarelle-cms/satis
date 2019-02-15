@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/bootstrap4.git",
-                    "reference": "526d165e4046237b4fbe25202193dc5d3ce0daa5"
+                    "reference": "ca634dde309fba98a34143e7f706c11cf05a598e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/bootstrap4/zipball/526d165e4046237b4fbe25202193dc5d3ce0daa5",
-                    "reference": "526d165e4046237b4fbe25202193dc5d3ce0daa5",
+                    "url": "https://api.github.com/repos/aquarelle-cms/bootstrap4/zipball/ca634dde309fba98a34143e7f706c11cf05a598e",
+                    "reference": "ca634dde309fba98a34143e7f706c11cf05a598e",
                     "shasum": ""
                 },
                 "require": {
                     "aquarelle/core": "1.0.x-dev"
                 },
-                "time": "2019-02-12T12:57:53+00:00",
+                "time": "2019-02-15T11:05:47+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
