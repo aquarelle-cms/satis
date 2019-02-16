@@ -748,12 +748,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:aquarelle-cms/installer.git",
-                    "reference": "2e3d3c618f118116a9e85830caf16f63a6bfd68e"
+                    "reference": "289685c462efe681a1a4fddbaf5254f2496c9aaf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/aquarelle-cms/installer/zipball/2e3d3c618f118116a9e85830caf16f63a6bfd68e",
-                    "reference": "2e3d3c618f118116a9e85830caf16f63a6bfd68e",
+                    "url": "https://api.github.com/repos/aquarelle-cms/installer/zipball/289685c462efe681a1a4fddbaf5254f2496c9aaf",
+                    "reference": "289685c462efe681a1a4fddbaf5254f2496c9aaf",
                     "shasum": ""
                 },
                 "require": {
@@ -765,7 +765,7 @@
                 "require-dev": {
                     "aquarelle/core": "1.0.x-dev"
                 },
-                "time": "2019-02-14T21:15:41+00:00",
+                "time": "2019-02-16T11:20:00+00:00",
                 "type": "opis-colibri-module",
                 "extra": {
                     "module": {
