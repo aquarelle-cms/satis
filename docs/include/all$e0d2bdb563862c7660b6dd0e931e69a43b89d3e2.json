@@ -874,6 +874,70 @@
                     "source": "https://github.com/aquarelle-cms/json-form/tree/master",
                     "issues": "https://github.com/aquarelle-cms/json-form/issues"
                 }
+            },
+            "dev-refactor": {
+                "name": "aquarelle/json-form",
+                "version": "dev-refactor",
+                "version_normalized": "dev-refactor",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:aquarelle-cms/json-form.git",
+                    "reference": "34f6ddc653dfbe18a1d03db0c420bfd16c27ed2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/aquarelle-cms/json-form/zipball/34f6ddc653dfbe18a1d03db0c420bfd16c27ed2f",
+                    "reference": "34f6ddc653dfbe18a1d03db0c420bfd16c27ed2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "opis/colibri": "2020.x-dev"
+                },
+                "time": "2020-11-11T15:21:42+00:00",
+                "type": "opis-colibri-module",
+                "extra": {
+                    "module": {
+                        "title": "JSON Form",
+                        "collector": "Aquarelle\\JsonForm\\Collector",
+                        "installer": "Aquarelle\\JsonForm\\Installer"
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Aquarelle\\JsonForm\\": "src/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Marius Sarca",
+                        "email": "marius.sarca@gmail.com"
+                    },
+                    {
+                        "name": "Sorin Sarca",
+                        "email": "sarca_sorin@hotmail.com"
+                    }
+                ],
+                "description": "JSON form schema builder",
+                "homepage": "http://opis.io",
+                "keywords": [
+                    "aquarelle",
+                    "cms",
+                    "form",
+                    "json",
+                    "module",
+                    "schema"
+                ],
+                "support": {
+                    "source": "https://github.com/aquarelle-cms/json-form/tree/refactor",
+                    "issues": "https://github.com/aquarelle-cms/json-form/issues"
+                }
             }
         },
         "aquarelle/json-schema-api": {
